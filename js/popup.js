@@ -14,3 +14,21 @@ btnCerrarPopup.addEventListener('click', function(){
     overlay.classList.remove('active');
     popup.classList.remove('active');
 });
+
+
+var AbrirPopupLogin = document.getElementById('abrir-popupLogin'),
+    overlayLogin = document.getElementById('iniciarSesion'),
+    popupLogin = document.getElementById('popup-login'),
+    btnCerrarLogin = document.getElementById('btn-cerrar-login');
+
+AbrirPopupLogin.addEventListener('click', function(){
+    console.log('!');
+    overlayLogin.classList.add('active');
+    popupLogin.classList.add('active');
+});
+
+btnCerrarLogin.addEventListener('click', function(){
+    console.log('!');
+    overlayLogin.classList.remove('active');
+    popupLogin.classList.remove('active');
+});
