@@ -33,7 +33,7 @@
                         <li class="nav-item"><a class="nav-link" href="#about">Fundación</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Seguir mi pedido</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Registrarse</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" id="abrir-popup">Registrarse</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Iniciar sesión</a></li>
                     </ul>
                 </div>
@@ -780,8 +780,8 @@
         </div>
 
         <!--Popup Iniciar sesión-->
-        <div class="overlay">
-            <div class="popup">
+        <div class="overlay" id="overlay">
+            <div class="popup" id="popup">
                 <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
                 <div class="container">
                     <div class="registration mx-auto d-block w-100">
@@ -797,18 +797,18 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Contraseña *</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Confirme su contraseña *</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********">
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Correo electrónico *</label>
                                     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ejemplo@gmail.com">
                                 </div>
                                 <br/>
-                                <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-end align-items-center">
                                     <div class="form-group d-flex justify-content-start">
                                         <button type="submit" class="btn btn-primary">Enviar</button>
                                     </div>
@@ -821,6 +821,8 @@
             </div>
 
         </div>
+
+        <script src="js/popup.js"></script>
 
 
 
