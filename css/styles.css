@@ -11832,8 +11832,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 /* ANIMACIONES POPUP*/
 .popup.active {opacity: 1; transform: scale(1);}
-.popup.active h1 { animation :entradaTitulo .8s ease .5s forwards; }
-.popup.active .registration { animation :entradaTitulo .8s ease .5s forwards; }
+.popup.active h1 { animation :entradaTitulo .6s ease .3s forwards; }
+.popup.active .registration { animation :entradaTitulo .6s ease .3s forwards; }
 
 @keyframes entradaTitulo {
   from {
