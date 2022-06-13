@@ -11852,3 +11852,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 }
 
+#pushbar-carrito {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
